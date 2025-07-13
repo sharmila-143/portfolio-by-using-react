@@ -16,8 +16,13 @@ export default function About() {
       </div>
       <div className="profile"><img src="profile1.png"/></div>
       <div className="follow-section"> <p>Follow me on:_________</p>
-      <img src="github.webp"/>
-      <img src="linkdin.webp"/>
+       <a href="https://github.com/sharmila-143" target="_blank" rel="noopener noreferrer">
+  <img src="github.webp" alt="GitHub Profile" style={{cursor: 'pointer' }} />
+</a>
+
+      <a href="https://www.linkedin.com/in/inkoolu-sharmila-71b0b0279" target="_blank" rel="noopener noreferrer">
+  <img src="linkdin.webp" alt="LinkedIn Profile" style={{cursor: 'pointer' }} />
+</a>
         </div>
     </div>
   </section>  
