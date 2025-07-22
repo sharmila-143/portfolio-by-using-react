@@ -9,7 +9,7 @@ export default function About() {
         <h4>Welcome</h4>
         <h1>I have<span> Creative Design</span> Experience</h1>
         <p>I'm Sharmila, a creative Product Designer.I've been helping business to solve their problems with my design for 2 years.</p>
-        <div><Link to="/contact"><button>Contact Me</button> </Link><button onClick={() => window.location.href = 'https://sharmila-143.github.io/Porfolio/'}>
+        <div><Link to="/contact"><button>Contact Me</button></Link><button onClick={() => window.location.href = 'https://sharmila-143.github.io/Porfolio/'}>
   Portfolio
 </button>
 </div>
@@ -44,7 +44,7 @@ export default function About() {
       
     </div>
   </section>
-
+ 
   </>
   );
 }

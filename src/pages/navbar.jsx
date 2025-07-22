@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './navbar.css';
+import './Navbar.css';
 export default function Navbar() {
     const [isOpen,setIsOpen]=useState(false);
     const toggleMenu=()=>setIsOpen(!isOpen);
@@ -28,6 +28,7 @@ export default function Navbar() {
       </div>
     
     </div>
+    
     </>
   );
 }

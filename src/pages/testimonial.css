@@ -1,5 +1,5 @@
 .testimonials-section {
-  margin-top: 100px;
+  margin-top: 150px;
   padding: 0 40px;
   text-align: start;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -87,7 +87,7 @@
 
 @media (max-width: 480px) {
   .testimonials-section {
-    padding:0px ;
+    padding:15px ;
     margin-top: 150px;
   }
 

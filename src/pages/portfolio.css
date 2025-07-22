@@ -10,6 +10,7 @@
   box-sizing: border-box;
   gap: 20px;
   flex-wrap: nowrap; 
+  margin-top: 150px;
 }
 
 .portfolio {
@@ -54,7 +55,7 @@
 
 @media (max-width: 768px) {
   .portfolio-section {
-    margin-top: 60px;
+    margin-top: 120px;
     flex-direction: column;
     padding: 20px;
     text-align: center;
@@ -90,7 +91,7 @@
 @media (max-width: 480px) {
   .portfolio-section {
     padding: 15px 10px;
-    margin-top: 100px;
+    margin-top: 170px;
   }
 
   .portfolio h1 {
